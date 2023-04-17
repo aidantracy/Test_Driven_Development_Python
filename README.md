@@ -22,7 +22,7 @@ Activate your environment:
 ------------------------------------------------------------------
 | Windows (git bash) : | source djangoPy3Env/Scripts/activate         
 ------------------------------------------------------------------
-copy
+
 Install Django:
 
 (djangoPy3Env) Windows/Mac:| pip install Django==2.2.4
