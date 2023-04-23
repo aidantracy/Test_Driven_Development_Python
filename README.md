@@ -39,7 +39,7 @@ Let's test this out:
 Navigate into the folder that was just created. A new Django project has just been created--let's run it!
 
 django_intro> cd your_project_name_here
-your_project_name_here> python manage.py runservercopy
+your_project_name_here> python manage.py runserver
 Open localhost:8000 in a browser window. Hooray for CLIs (command-line interfaces)!
 
 (Don't worry about the warning about unapplied migrations. It won't affect us for now, and we'll address it soon enough.)
