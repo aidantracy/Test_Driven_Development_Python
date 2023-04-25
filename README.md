@@ -132,7 +132,7 @@ def one_more(request, id, color): 	# id would be a number, and color a string fr
 
 <!-- TO RUN APPLICATION -->
 1. In Gitbash, make sure you are cd in the folder that contains the manage.py file. 
-2. run command: python manage.py runserver    OR     python manage.py startapp your_app_name_here
+2. run command: python manage.py runserver
 This should be listening on http://localhost:8000/
 
 
