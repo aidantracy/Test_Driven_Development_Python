@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python TDD</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">    
+      <script src="{% static 'js/script.js' %}"></script>
 </head>
 <body>
     <h1>Python TDD Here</h1>
+
+    <h1>Info From Server:</h1>
+<p>Name: {{name}}</p>
+<p>Color: {{favorite_color}}</p>
+<p>Pets</p>
+<ul>
+{% for pet in pets %}
+   <li>{{pet}}</li>
+{% endfor %}
+<br>
+
+</ul>
+<img src="{% static 'images/image.jpg' %}" />
 </body>
 </html>
