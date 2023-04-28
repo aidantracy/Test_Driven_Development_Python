@@ -21,6 +21,13 @@
    <li>{{pet}}</li>
 {% endfor %}
 <br>
+<form action="/form_route" method="post">
+    {% csrf_token %}
+    <p>Field One: <input name="one" type="text"></p>
+    <p>Field Two: <input name="two" type="text"></p>
+    <button type="submit">Submit</button>
+  </form>
+
 
 </ul>
 <img src="{% static 'images/image.jpg' %}" />
