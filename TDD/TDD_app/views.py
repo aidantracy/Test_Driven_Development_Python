@@ -22,4 +22,5 @@ def some_function(request):
         val_from_field_one = request.POST["one"]
         val_from_field_two = request.POST["two"]
         print(val_from_field_one, val_from_field_two)
+        # sys.stdout.flush()
         return redirect('/')

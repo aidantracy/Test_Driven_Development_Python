@@ -21,7 +21,7 @@
    <li>{{pet}}</li>
 {% endfor %}
 <br>
-<form action="/form_route" method="post">
+<form action="/form_route" method="POST">
     {% csrf_token %}
     <p>Field One: <input name="one" type="text"></p>
     <p>Field Two: <input name="two" type="text"></p>
