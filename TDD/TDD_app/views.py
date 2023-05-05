@@ -15,6 +15,8 @@ def some_functions(request):
         return render(request, "some_template.html")
     if request.method == "POST":
         print("a POST request is being made to this route")
+        print("Got Post Info....................")
+        print(request.POST)
         return redirect("/")
 
 def some_function(request):
