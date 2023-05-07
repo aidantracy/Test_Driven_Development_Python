@@ -1,6 +1,7 @@
-* {
+/* If not reflecting any changes in local host 8000 - then you will need to clear cached images/file data in chrome/browser */
 
-    border-color: 1px 1px red dotted;
+* { 
+border: red 1px dotted;
 }
 
 
