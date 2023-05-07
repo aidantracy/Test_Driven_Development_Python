@@ -1,3 +1,9 @@
+* {
+
+    border-color: 1px 1px red dotted;
+}
+
+
 body {
     background-color: #252525;
     color: aliceblue;
